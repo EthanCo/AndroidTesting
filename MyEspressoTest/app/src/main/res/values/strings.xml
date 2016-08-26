@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyEspressoTest</string>
+    <string name="hello">Hello!</string>
+    <string name="greet">Greet</string>
+</resources>
