@@ -4,4 +4,11 @@
     <string name="greet">Greet</string>
 
     <string name="increment">Increment</string>
+
+    <string name="instructions">Press start, wait for a minute, press stop.</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="elapsed_time">%1$.2f s</string>
+    <string name="success">Yes, you waited for a minute!</string>
+    <string name="failure">Patience, my friend</string>
 </resources>
