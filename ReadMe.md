@@ -5,7 +5,7 @@ android 单元测试 相关的试验
 
 - junit4  
 - Robolectric  
-- Espresso (待实现)
+- Espresso
 
 其他
  
