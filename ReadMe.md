@@ -7,7 +7,7 @@ android 单元测试 相关的试验
 - Robolectric  
 - Espresso
 
-其他
+其他相关
  
 - Rxjava
 - Retrofit

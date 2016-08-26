@@ -2,7 +2,6 @@ package com.ethanco.myrxjavapoboletrictest;
 
 import com.ethanco.myrxjavapoboletrictest.model.Repo;
 import com.ethanco.myrxjavapoboletrictest.model.my.CmdRequest;
-import com.ethanco.myrxjavapoboletrictest.model.my.TimeResponse;
 import com.ethanco.myrxjavapoboletrictest.net.APIService;
 import com.ethanco.myrxjavapoboletrictest.net.APIServiceMy;
 import com.ethanco.myrxjavapoboletrictest.net.RetrofitFactory;
@@ -29,11 +28,9 @@ import okhttp3.HttpUrl;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 import okhttp3.mockwebserver.RecordedRequest;
-import retrofit2.Response;
 import rx.Observable;
 
 import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertNotNull;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNot.not;
@@ -128,7 +125,7 @@ public class ApiTest {
         System.out.print(list.size());
     }
 
-    @Test
+    /*@Test
     public void getTime() {
         try {
             Response<TimeResponse> resposne = apiServiceMy.getServerTime(generateServiceTimeCmd()).execute();
@@ -138,7 +135,7 @@ public class ApiTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
     /**
      * 生成 获取服务器时间 CmdRequest

@@ -1,0 +1,19 @@
+NoClassDefFoundError:javax / microedition khronos / opengl / GL
+
+https://github.com/robolectric/robolectric/issues/1932
+
+java.lang.NoSuchMethodError: org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V
+
+Conflict with dependency 'com.android.support:support-annotations'. Resolved versions for app (23.1.1) and test app (22.2.1) differ. See http://g.co/androidstudio/app-test-app-conflict for details.
+
+https://github.com/square/assertj-android/issues/193
+
+
+//TODO
+
+Problems asserting nextActivity with Robolectric 3.1
+https://github.com/robolectric/robolectric/issues/2521
+
+
+robolectric
+https://github.com/robolectric/robolectric
