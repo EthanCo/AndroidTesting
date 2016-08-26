@@ -23,7 +23,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
  * Created by EthanCo on 2016/8/26.
  */
 @RunWith(AndroidJUnit4.class)
-public class SaveActivityTest {
+public class RotateScreenActivityTest {
     @Rule
     public ActivityTestRule<RotateScreenActivity> activityRule = new ActivityTestRule<>(RotateScreenActivity.class);
 
